@@ -1,6 +1,6 @@
 # sprintr
 
-`sprintr` is an R package for **fast, scalable interaction modeling** in **generalized linear models (GLMs)**. It implements the *sprinter* (sparse reluctant interaction) algorithm: fit a regularized **main-effects** GLM once, then score each candidate interaction by a **one-dimensional MLE** conditional on that fit, and finally refit on the selected set. This realizes **interaction reluctance**—prefer main effects when an interaction adds no clear extra predictive utility—**without** imposing hierarchy constraints. The full method and theory are developed in **Lu & Yu, *Reluctant Interaction Modeling in Generalized Linear Models***.&#x20;
+`sprintr` is an R package for **fast, scalable interaction modeling** in **generalized linear models (GLMs)**. It implements the *sprinter* (sparse reluctant interaction) algorithm: fit a regularized main-effects GLM once, then score each candidate interaction by a one-dimensional MLE conditional on that fit, and finally refit on the selected set. This realizes **interaction reluctance**—prefer main effects when an interaction adds no clear extra predictive utility—**without** imposing hierarchy constraints. The full method and theory are developed in **Lu & Yu, *Reluctant Interaction Modeling in Generalized Linear Models***.&#x20;
 
 ## Why *sprintr*?
 
